@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vigenere</title>
+    <script src="vigenere.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainWindow">
+        <div class="badger">
+            <div class="choiceEn active">
+                ENCRYPTION
+            </div>
+            <div class="choiceDe">
+                DECRYPTION
+            </div>
+        </div>
+
+        <div class="formsEncrypt formsActive">
+            <form>
+                Enter text to encrypt:
+                <input type="text" id="textEn">
+                WORD:
+                <input type="text" id="textWORD">
+                <input type="button" value="ENCRYPT" id="encryptEn">
+                Result:
+                <input type="text" id="resultEn">
+            </form>
+        </div>
+
+        <div class="formsDecrypt">
+            <form>
+                Enter text to decrypt:
+                <input type="text" id="textDe">
+                WORD:
+                <input type="text" id="textWORDDe">
+                <input type="button" value="DECRYPT" id="encryptDe">
+                Result:
+                <input type="text" id="resultDe">
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

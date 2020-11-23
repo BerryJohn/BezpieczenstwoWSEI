@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(180, 180, 180);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:90vh;
+    font-family: sans-serif;
+}
+
+.mainWindow{
+    width:600px;
+    height:400px;
+    box-shadow: rgb(77, 77, 77) 5px 5px 5px;
+    background-color: rgb(221, 221, 221);
+    border-radius:4px;
+}
+
+.badger{
+    background-color: rgb(27, 27, 27);
+    width:100%;
+    height:40px;
+    border-radius:4px 4px 0px 0px;
+    display:flex;
+    
+}
+
+.badger > div {
+    background-color: rgb(65, 65, 65);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:2px;
+}
+
+.badger > div:first-child{
+    margin-left:10px;
+}
+
+.active{
+    font-weight: bold;
+    background-color:rgb(221, 221, 221) !important;
+}
+
+.formsEncrypt{
+    display:none;
+    height: calc( 100% - 40px);
+    align-items: center;
+    justify-content: center;
+}
+.formsDecrypt{
+    display:none;
+    height: calc( 100% - 40px);
+    align-items: center;
+    justify-content: center;
+}
+
+.formsActive{
+    display:flex;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    display:block;
+    margin: 10px auto;
+}
+
+input[type=text]
+{
+    border:0px;
+    width:400px;
+    text-align: center;
+}
